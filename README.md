@@ -1,7 +1,7 @@
 <p align="right"> <img src="https://www.autohotkey.com/logos/ahk_logo.png"> </p>
 
 # Extract Helper
-This is the first AutoHotkey program I've created, and honestly, I'm amazed at what it can do! 
+This is the first AutoHotkey program I've created, and honestly, I'm amazed at what it can do! Made with AHK v2.
 
 This is a program I've made to make stuff easier for my colleagues :) . Since the repository is public, I've replaced any sensitive data with generic strings to keep things secure. Why I didn't use a json or a thing like that in the first place then? Well, this was just a fun, quick side project. Nothing too serious! 😊
 
