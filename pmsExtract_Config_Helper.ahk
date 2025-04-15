@@ -156,15 +156,15 @@ All_Path(server,tab_num,suffix, pub_cloud){
 	result := ""
 	; tab 1 result paths
 	if(tab_num = 1){
-		if(server = "Server_1_1"){
+		if(server = "Server_1"){
 			result := rep1_server_path[1] . "string\" . cloud_paths[pub_cloud] . "\" . suffix . "\"
-		} else if (server = "Server_1_2"){
+		} else if (server = "Server_2"){
 			result := rep1_server_path[2] . "string\" . cloud_paths[pub_cloud] . "\" . suffix . "\"
 		}
 	} else if(tab_num = 2){
-		if(server = "Server_2_1"){
+		if(server = "Server_1"){
 			result := rep2_server_path[1] . "string\" . suffix . "\"
-		} else if (server = "Server_2_2"){
+		} else if (server = "Server_2"){
 			result := rep2_server_path[2] . "string\" . suffix . "\"
 		}
 	}
@@ -179,7 +179,7 @@ All_Expression(prefix, dateType, suffix){
 			"Suffix_04", "Suffix_05", "Suffix_06",
 			"Suffix_07", ""]
 	date_types := ["Date_type_01",
-			"(Date_type_02",
+			"Date_type_02",
 			"Date_type_03",
 			"Date_type_04"
 			]
